@@ -27,7 +27,7 @@ public class Main
     {
         public void solve(InputReader in , PrintWriter out)
         {
-            
+
         }
     }
 
@@ -81,5 +81,16 @@ public class Main
         {
             return Integer.parseInt(next());
         }
+
+        public float nextFloat()
+        {
+            return Float.parseFloat(next());
+        }
+
+        public double nextDouble()
+        {
+            return Double.parseDouble(next());
+        }
+
     }
 }
